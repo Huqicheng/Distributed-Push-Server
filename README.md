@@ -1,10 +1,12 @@
 # Distributed Push Server
 
 ## Requirements
-> socket.io
-> sticky-session
-> cluster
-> redis
+```
+socket.io 
+sticky-session
+cluster
+redis
+```
 
 ## How to use it
 ```js
