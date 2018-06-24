@@ -56,10 +56,10 @@ class RedisHandler extends BasicHandler {
 
 	onDisconnected(socket) {
 		if (socket.sessionController == null) return;
-      	socket.sessionController.unsubscribe();
-      	var leaveMessage = JSON.stringify({type: 'control', user: socket.sessionController.user, msg: ' left the channel' });
-      	socket.sessionController.publish(leaveMessage);
-      	socket.sessionController.destroyRedis();
+      		socket.sessionController.unsubscribe();
+      		var leaveMessage = JSON.stringify({type: 'control', user: socket.sessionController.user, msg: ' left the channel' });
+      		socket.sessionController.publish(leaveMessage);
+      		socket.sessionController.destroyRedis();
 	}
 }
 
