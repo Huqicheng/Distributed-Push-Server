@@ -1,0 +1,29 @@
+{
+  "name": "node-push-distributed",
+  "version": "1.0.0",
+  "description": "```\r socket.io \r sticky-session\r cluster\r redis\r ```\r ## Components\r #### 1. BasicHandler\r \"BasicHandler\" is the base class of message handlers, it provides onConnected(socket), onDisconnected(socket), onMessageRecieved(socket, data) methods. <br>",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "dependencies": {
+    "redis": "^2.8.0",
+    "socket.io": "^2.1.1",
+    "sticky-session": "^1.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Huqicheng/Distributed-Push-Server.git"
+  },
+  "author": "Huqicheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Huqicheng/Distributed-Push-Server/issues"
+  },
+  "homepage": "https://github.com/Huqicheng/Distributed-Push-Server#readme"
+}
