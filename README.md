@@ -12,7 +12,7 @@ redis
 "BasicHandler" is the base class of message handlers, it provides onConnected(socket), onDisconnected(socket), onMessageRecieved(socket, data) methods. <br>
 
 An example of definition of a customized message handler.
-```
+```js
 // customize your own Message Handler
 class MyHandler extends BasicHandler {
 	onMessageRecieved(socket, data) {
