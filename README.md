@@ -53,6 +53,13 @@ server_.run(options, 8000)
 ## How to use it
 The example of a server using pub/sub is in /example/index.js <br>
 The test front-end file is /example/index.html
+#### Install
 ```
-
+npm install https://github.com/Huqicheng/Distributed-Push-Server.git
 ```
+#### Run the server
+```
+node /example/node.js
+```
+#### Test
+Open the index.html file in your browser.
